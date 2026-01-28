@@ -47,7 +47,6 @@ const Weather = () => {
             }
             else if(conditions==="Clear"){
               setweatherimg(clur)
-
             }
             settemp(res.data.main.temp)
             setcity(res.data.name)
