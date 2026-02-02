@@ -5,7 +5,8 @@ function App() {
   return (
     <div>
      {/* <Read/> */}
-    {/* <Weather/> */}
+     <Weather/>
+    
     </div>
   );
 }

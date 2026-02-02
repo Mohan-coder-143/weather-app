@@ -1,4 +1,4 @@
-/*body{
+body{
     background-color:#4988C4;
     height: 100vh;
     display: flex;
@@ -41,12 +41,19 @@ img{
 h2{
     display: flex;
 }
-/*.hum1{
+.hum1{
     display: flex;
 }
 .data1 #tempid{
     font-size: 30px;
-} */
+} 
+
+
+
+
+
+
+
 .data1{
     justify-content: center;
     margin-left: 120px;

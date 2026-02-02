@@ -1,11 +1,10 @@
 import axios from 'axios'
 import React, { useState } from 'react'
-import '../Weather/Weather.css'
 import hum from '../Assests/humidity.png';
 import windes from '../Assests/windes.png';
 import clur from '../Assests/clear images.jpg';
 import cloud from '../Assests/Rain images.jpg';
-
+import '../Weather/Weather.css';
 
 const Weather = () => {
   //input state
@@ -65,7 +64,7 @@ const Weather = () => {
     </div>
     <div className='data1'>
       <h2 id='tempid'>{temp}C</h2>
-      <img src={weatherimg} id='cond'></img>
+      <img src={weatherimg} id='cond' alt='weatherimg'></img>
       <h2 id='cit'>{city}</h2>
 
     </div>
